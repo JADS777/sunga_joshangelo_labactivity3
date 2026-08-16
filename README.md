@@ -11,7 +11,7 @@ The system is built using two related classes that separate individual item beha
 2. TaskManager Class: Acts as the collection manager. It stores a list of `Task` objects and handles overarching system operations. This includes adding tasks, removing tasks (with built-in error checking if
  a task is missing), filtering tasks by status using list comprehensions, and displaying the current queue.
 
-
+'''
 +---------------------------+          +--------------------------+
 |       TaskManager         |          |           Task           |
 +---------------------------+          +--------------------------+
@@ -22,3 +22,4 @@ The system is built using two related classes that separate individual item beha
 | + get_tasks_by_status()   |          | + mark_in_progress()     |
 | + display_tasks()         |          | + mark_completed()       |
 +---------------------------+          +--------------------------+
+'''
