@@ -24,7 +24,7 @@ The system is built using two related classes that separate individual item beha
 | + get_tasks_by_status()   |          | + mark_completed()       |
 | + display_tasks()         |          | + __str__()              |
 +---------------------------+          +--------------------------+
-
+```
 
 ## How to Run
 1. Ensure Python3 is installed.
