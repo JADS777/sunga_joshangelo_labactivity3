@@ -24,6 +24,6 @@ The system is built using two related classes that separate individual item beha
 +---------------------------+          +--------------------------+
 ```
    ## How to Run
-   1. Ensure Python 3 is installed.
-   2. Run: python main.py
+   1. Ensure Python3 is installed.
+   2. Run: python3 main.py
    3. Output will display task creation, updates, removal, and filtering in the terminal.
